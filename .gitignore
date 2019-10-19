@@ -42,3 +42,4 @@ yarn-debug.log*
 /config/application.yml
 /config/newrelic.yml
 /config/secrets.yml
+/config/credentials.yml.enc
