@@ -1,4 +1,4 @@
-unless Rail.config.action_mailer.nil?
+unless Rails.config.action_mailer.nil?
 
   Rails.config.action_mailer.smtp_settings = {}
 
