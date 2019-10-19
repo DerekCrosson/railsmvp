@@ -51,11 +51,11 @@ Rails.application.configure do
   
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    :user_name => ENV['user_name'],
-    :password => ENV['password'],
-    :domain => ENV['domain'],
-    :address => ENV['port'],
-    :port => ENV['user_name'],
+    :user_name => ENV['smtp_user_name'],
+    :password => ENV['smtp_password'],
+    :domain => ENV['smtp_domain'],
+    :address => ENV['smtp_address'],
+    :port => ENV['smtp_port'],
     :authentication => :plain,
     :enable_starttls_auto => ENV['enable_starttls_auto'],
     :openssl_verify_mode  => ENV['openssl_verify_mode']
