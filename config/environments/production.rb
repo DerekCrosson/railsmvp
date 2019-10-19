@@ -76,7 +76,7 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = true
   
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = YAML.load_file("#{Rails.root}/config/smtp.yml")
+  config.action_mailer.smtp_settings = YAML.load_file("#{Rails.root}/shared/smtp.yml")
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
