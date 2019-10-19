@@ -1,0 +1,45 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: one@test.com
+  encrypted_password: $2a$11$g4.Ubnp9mI6IMdYFRxUhmu/A2QzbOEeSSu43/atl5V1mdfcv1lNj6
+  reset_password_token: fa8fddd89ce03dfd1af520af5aa2ded4f518dfd2f9dbcd8ebeea9b875ba599d4
+  reset_password_sent_at: 2019-10-18 11:43:58.182054
+  remember_created_at: 2019-10-18 19:44:00.182054
+  sign_in_count: 4
+  current_sign_in_at: 2019-10-18 19:44:00.182054
+  last_sign_in_at: 2019-10-18 15:44:00.182054
+  current_sign_in_ip: 192.168.0.45
+  last_sign_in_ip: 192.168.0.45
+  confirmation_token: fa8fddd89ce03dfd1af520af5aa2ded4f518dfd2f9dbcd8ebeea9b875ba599d6
+  confirmed_at: 2019-10-17 21:46:00.182054
+  confirmation_sent_at: 2019-10-17 21:44:00.182054
+  unconfirmed_email: MyString
+  failed_attempts: 1
+  unlock_token: fa8fddd89ce03dfd1af520af5aa2ded4f518dfd2f9dbcd8ebeea9b875ba599d8
+  locked_at: 2019-10-18 21:43:58.182054
+  created_at: 2019-10-17 21:43:58.182054
+  updated_at: 2019-10-17 21:43:58.182054
+  username: user-one
+
+two:
+  email: two@test.com
+  encrypted_password: $2a$11$Wbx.9oCStOKy9XmaBASJQOc603kv7lh6gXjDsiyhOnC/oomFs.Y3.
+  reset_password_token: fa8fddd89ce03dfd1af520af5aa2ded4f518dfd2f9dbcd8ebeea9b875ba599d5
+  reset_password_sent_at: 2019-10-18 11:43:58.182054
+  remember_created_at: 2019-10-18 19:44:00.182054
+  sign_in_count: 4
+  current_sign_in_at: 2019-10-18 19:44:00.182054
+  last_sign_in_at: 2019-10-18 15:44:00.182054
+  current_sign_in_ip: 192.168.0.45
+  last_sign_in_ip: 192.168.0.45
+  confirmation_token: fa8fddd89ce03dfd1af520af5aa2ded4f518dfd2f9dbcd8ebeea9b875ba599d7
+  confirmed_at: 2019-10-17 21:46:00.182054
+  confirmation_sent_at: 2019-10-17 21:44:00.182054
+  unconfirmed_email: MyString
+  failed_attempts: 1
+  unlock_token: fa8fddd89ce03dfd1af520af5aa2ded4f518dfd2f9dbcd8ebeea9b875ba599d9
+  locked_at: 2019-10-18 21:43:58.182054
+  created_at: 2019-10-17 21:43:58.182054
+  updated_at: 2019-10-17 21:43:58.182054
+  username: user-two
