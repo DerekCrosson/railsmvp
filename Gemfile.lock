@@ -250,6 +250,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capistrano (~> 3.7)
+  capistrano-bundler
   capistrano-postgresql (~> 6.2)
   capistrano-rails (~> 1.2)
   capistrano-rvm
