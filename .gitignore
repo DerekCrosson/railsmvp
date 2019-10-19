@@ -40,5 +40,4 @@ yarn-debug.log*
 # Ignore database settings, email settings and environment variables.
 /config/database.yml
 /config/application.yml
-/config/smtp.yml
 /config/newrelic.yml
