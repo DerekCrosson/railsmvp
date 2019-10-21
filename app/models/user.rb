@@ -6,7 +6,7 @@ class User < ApplicationRecord
   
   def assign_default_role
     # Assign the default user role after the user is created.
-    add_role(:pending) if self.roles.blank? # TODO: Make this role name dynamic or an environment variable.
+    add_role(ENV['default_user_role']) if self.roles.blank?
   end
   
   def set_username

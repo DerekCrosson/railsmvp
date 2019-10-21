@@ -18,6 +18,6 @@ module Railsmvp
     config.time_zone = 'Africa/Johannesburg'
     config.active_record.default_timezone = :local
     # If you are running this app as an API only, this can be removed.
-    config.google_verification = "googlexxxxxxxxxxxxxxxx"
+    config.google_verification = ENV['google_search_console_verification']
   end
 end

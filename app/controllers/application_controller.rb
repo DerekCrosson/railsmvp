@@ -14,7 +14,7 @@ class ApplicationController < ActionController::Base
       # Add the desired role for the newly registered user.
       current_user.add_role (:client) # TODO: Make this the session role value.
       # This is the default role which is added on registration.
-      default_role_name = 'pending'
+      default_role_name = ENV['default_user_role'].strip(':')[0]
       # Remove the default role for the newly registered user.
       default_role = ActiveRecord::Base.connection.execute("SELECT id from roles where name = #{ default_role_name } LIMIT 1").first
       sqlRemoveDefaultgRole = "DELETE FROM users_roles WHERE user_id = #{ current_user.id } AND role_id = #{ default_role['id'] };"

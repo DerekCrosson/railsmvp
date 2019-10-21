@@ -11,6 +11,7 @@ class V1::Resources::UsersController < ApplicationController
         format.html { render :all }
         format.json { render json: @users, status: :ok }
       else
+        #puts ENV['default_user_role'].strip(':')[0]
         format.html { render(file: Rails.root.join('public', '204'), :formats => [:html], status: 204, layout: false) }
         format.json { head :no_content }
       end

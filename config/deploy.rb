@@ -3,6 +3,7 @@ lock "~> 3.11.2"
 
 set :application, "railsmvp"
 set :repo_url, "git@github.com:DerekCrosson/railsmvp.git"
+set :linked_files, fetch(:linked_files, []).push("config/master.key")
 set :pg_password, "4871ada7071bd032051c4e2c5c9d59c0"
 set :stage, :production
 set :rails_env, :production
